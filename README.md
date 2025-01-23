@@ -71,7 +71,7 @@ pip install advanced-scraper
 
 1. Start the server:
 ```bash
-
+python scrape_updated.py
 ```
 
 2. Open your web browser and go to:
@@ -79,6 +79,7 @@ pip install advanced-scraper
 http://localhost:5000
 ```
 
+3. Enter your search query and click "Search" or press Enter
 
 ## Troubleshooting
 
@@ -128,4 +129,4 @@ If you get browser driver errors:
 
 ## Note
 
-
+This scraper is for educational purposes only. Please respect the terms of service and robot.txt files of the platforms you're scraping.
