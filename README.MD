@@ -58,14 +58,7 @@ pip install -e .
 ```bash
 pip install -e .[dev]
 ```
-4. Install as a package:
-```bash
-npx pkg .
-```
-6. Build and run the package:
-```bash
-npm run package-win
-```
+
 ### Option 3: Package Installation
 
 To install directly as a package:
@@ -78,75 +71,14 @@ pip install advanced-scraper
 
 1. Start the server:
 ```bash
-python app.py
+
 ```
 
 2. Open your web browser and go to:
 ```
 http://localhost:5000
 ```
-3. Run the package:
-```bash
-node start.js
-```
-4. run this to test the package:
-```bash
-npm run dev:all
-```
-5. then check the status of the package:
-```
-http://localhost:3000/health
-```
-5. Enter your search query and click "Search" or press Enter
 
-## Video Embedding
-
-This project supports video embedding using the following libraries:
-
-### Installation
-
-Make sure to install the required packages:
-
-```bash
-pip install -r requirements.txt
-```
-
-### Usage
-
-Here is a simple example of how to use these libraries to embed and play a video:
-
-```python
-# Example code removed since libraries are no longer used.
-```
-
-## Building and Serving the React Application
-
-To build and serve the React application, follow these steps:
-
-1. Build the React application:
-   ```bash
-   npm run build
-   ```
-
-2. Install the `serve` package globally:
-   ```bash
-   npm install -g serve
-   ```
-
-3. Serve the built application:
-   ```bash
-   serve -s build
-   ```
-## Running the Application
-
-### For Windows Users
-1. Double-click `WindowsServer.bat` to install dependencies, build, and serve the application.
-
-### For macOS/Linux Users
-1. Open a terminal.
-2. Navigate to the project directory.
-3. Run `chmod +x MacOSLinuxSever.sh` to make the script executable.
-4. Execute the script with `./MacOSLinuxSever.sh`.
 
 ## Troubleshooting
 
@@ -196,4 +128,4 @@ If you get browser driver errors:
 
 ## Note
 
-This scraper is for educational purposes only. Please respect the terms of service and robot.txt files of the platforms you're scraping.
+
