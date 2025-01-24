@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+include README.md
+include LICENSE
+recursive-include static *
+recursive-include templates *
+recursive-include public *
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude *.pyo
+global-exclude .git*
+global-exclude venv/*
+global-exclude node_modules/*
+prune node_modules
+=======
+include LICENSE
+include README.md
+recursive-include static *
+recursive-include templates *
+recursive-include docs *
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude __pycache__/*
+>>>>>>> 4147e001903a7ea27ff37a6d5ef3df814a157b6a
